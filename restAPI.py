@@ -1,5 +1,4 @@
-# -*- coding: utf-8 -*-
-
+#restAPI.py
 from flask import Flask, request
 import json
 from Blockchain import Blockchain

@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+#Block.py
 from hashlib import sha256
 import json
 class Block:
