@@ -1,6 +1,6 @@
 #Blockchain.py
 import time
-from Block import Block
+from Block import Block #Matt* added import for class Block
 
 class Blockchain:
     

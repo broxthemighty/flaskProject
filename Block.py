@@ -8,7 +8,7 @@ class Block:
         self.timestamp = timestamp
         self.previous_hash = previous_hash
         self.nonce = nonce
-        self.hash = None  # Initialize the hash attribute as None
+        self.hash = None  #Matt* Initialize the hash attribute as None
     def compute_hash(self):
         block_string = json.dumps(self.__dict__, sort_keys=True)
         return sha256(block_string.encode()).hexdigest()
