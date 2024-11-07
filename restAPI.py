@@ -1,7 +1,7 @@
 #restAPI.py
-from flask import Flask, request
+from flask import Flask
 import json
-from Blockchain import Blockchain
+from Blockchain import Blockchain #Matt* added import for class Blockchain
 
 app =  Flask(__name__)
 blockchain = Blockchain()
